@@ -68,15 +68,24 @@ struct Z {
     }
 };
 
-vector<Z> fac{1}, iFac{1};
+vector<Z> fac, iFac;
+
+void init(int n) {
+    fac.resize(n + 1);
+    iFac.resize(n + 1);
+    fac[0] = iFac[0] = 1;
+    for (int i = 1; i <= n; i++) {
+        fac[i] = i * fac[i - 1];
+    }
+    iFac[n] = fac[n].inv();
+    for (int i = n; i; i--) {
+        iFac[n - 1] = i * iFac[i];
+    }
+}
 
 Z C(int n, int k) {
     if (k < 0 || k > n) {
         return 0;
-    }
-    while ((int) fac.size() < n + 1) {
-        fac.push_back(fac.back() * (int) fac.size());
-        iFac.push_back(fac.back().inv());
     }
     return fac[n] * iFac[k] * iFac[n - k];
 }
