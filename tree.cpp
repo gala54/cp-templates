@@ -1,11 +1,13 @@
 struct Tree {
     int n, l;
-    vector<int> dep;
+    vector<int> dep, in, out;
     vector<vector<int>> e, f;
     Tree(int _) {
         n = _;
-        l = ceil(log2(_));
+        l = ceil(log2(_ + 1));
         dep.resize(_);
+        in.resize(_);
+        out.resize(_);
         e.resize(_);
         f.assign(_, vector<int>(l));
     }
@@ -27,7 +29,10 @@ struct Tree {
         return max_d(u, u).first;
     }
     void setRoot(int r) {
+        int timer = 0;
+        dep[r] = 0;
         function<void(int, int)> dfs = [&](int u, int p) {
+            in[u] = timer++;
             f[u][0] = p;
             for (int i = 1; i < l; i++) {
                 f[u][i] = f[f[u][i - 1]][i - 1];
@@ -38,6 +43,7 @@ struct Tree {
                     dfs(v, u);
                 }
             }
+            out[u] = timer++;
         };
         dfs(r, r);
     }
@@ -45,8 +51,7 @@ struct Tree {
         return dep[u];
     }
     int dis(int u, int v) {
-        // todo
-        return 0;
+        return dis(u) + dis(v) - 2 * dis(lca(u, v));
     }
     int lift(int u, int d) {
         for (int i = l - 1; i >= 0; i--) {
@@ -56,8 +61,21 @@ struct Tree {
         }
         return u;
     }
+    bool isAncestor(int u, int v) {
+        return (in[u] <= in[v] && out[u] >= out[v]);
+    }
     int lca(int u, int v) {
-        // todo
-        return 0;
+        if (isAncestor(u, v)) {
+            return u;
+        }
+        if (isAncestor(v, u)) {
+            return v;
+        }
+        for (int i = l - 1; i >= 0; i--) {
+            if (!isAncestor(f[u][i], v)) {
+                u = f[u][i];
+            }
+        }
+        return f[u][0];
     }
 };
