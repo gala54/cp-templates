@@ -79,7 +79,7 @@ void init(int n) {
     }
     iFac[n] = fac[n].inv();
     for (int i = n; i; i--) {
-        iFac[n - 1] = i * iFac[i];
+        iFac[i - 1] = i * iFac[i];
     }
 }
 
