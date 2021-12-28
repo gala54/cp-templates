@@ -34,8 +34,8 @@ string to_string(T a) {
 
 template<class... T>
 void print(T... args) {
-    (..., (cout << ' ' << to_string(args)));
-    cout << endl;
+    (..., (cerr << ' ' << to_string(args)));
+    cerr << endl;
 }
 
 #define debug(...) cerr << "[" << #__VA_ARGS__ << "]:", print(__VA_ARGS__)
