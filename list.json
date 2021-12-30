@@ -2,5 +2,9 @@
     {
         "title": "Segment Tree",
         "name": "segment-tree.cpp"
+    },
+    {
+        "title": "Disjoin Set Union",
+        "name": "dsu.cpp"
     }
 ]
