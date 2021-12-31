@@ -6,9 +6,5 @@
     {
         "title": "Disjoin Set Union",
         "name": "dsu.cpp"
-    },
-    {
-        "title": "Max Flow",
-        "name": "max-flow.cpp"
     }
 ]
