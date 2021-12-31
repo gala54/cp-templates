@@ -8,6 +8,14 @@
         "name": "dsu.cpp"
     },
     {
+        "title": "Modular Integer",
+        "name": "modular.cpp"
+    },
+    {
+        "title": "FFT",
+        "name": "polynomial-fft.cpp"
+    },
+    {
         "title": "Max Flow",
         "name": "max-flow.cpp"
     }
