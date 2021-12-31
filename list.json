@@ -2,6 +2,7 @@
     {
         "title": "Segment Tree",
         "name": "segment-tree.cpp"
+<<<<<<< HEAD
     },
     {
         "title": "Disjoin Set Union",
@@ -18,5 +19,7 @@
     {
         "title": "Max Flow",
         "name": "max-flow.cpp"
+=======
+>>>>>>> parent of 606dde2 (Changed 12-29-2021)
     }
 ]
