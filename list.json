@@ -6,5 +6,17 @@
     {
         "title": "Disjoin Set Union",
         "name": "dsu.cpp"
-    }
+    },
+    {
+        "title": "Modular Int",
+        "name": "modular.cpp"
+    },
+    {
+        "title": "FFT",
+        "name": "polynomial-fft.cpp"
+    },
+    {
+        "title": "Max Flow",
+        "name": "max-flow.cpp"
+    },
 ]
