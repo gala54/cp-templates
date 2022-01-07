@@ -26,5 +26,13 @@
     {
         "title": "Debugging",
         "name": "debug.cpp"
+    },
+    {
+        "title": "Range Min Query",
+        "name": "rmq.cpp"
+    },
+    {
+        "title": "LCA with RMQ",
+        "name": "lca.cpp"
     }
 ]
