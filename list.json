@@ -18,5 +18,13 @@
     {
         "title": "Max Flow",
         "name": "max-flow.cpp"
-    }
+    },
+    {
+        "title": "Suffix Automaton",
+        "name": "suffix-automaton.cpp"
+    },
+    {
+        "title": "Debugging",
+        "name": "debug.cpp"
+    },
 ]

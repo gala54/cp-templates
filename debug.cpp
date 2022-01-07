@@ -2,8 +2,12 @@ string to_string(bool b) {
     return (b ? "true" : "false");
 }
 
-string to_string(string s) {
-    return s;
+string to_string(const string& s) {
+    return '"' + s + '"';
+}
+
+string to_string(const char* s) {
+  return to_string(string(s));
 }
 
 template<class A, class B>
@@ -38,4 +42,8 @@ void print(T... args) {
     cerr << endl;
 }
 
+#ifdef LOCAL
 #define debug(...) cerr << "[" << #__VA_ARGS__ << "]:", print(__VA_ARGS__)
+#else
+#define debug(...) "MJ >> LAMELO"
+#endif
