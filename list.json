@@ -34,5 +34,9 @@
     {
         "title": "LCA with RMQ",
         "name": "lca.cpp"
+    },
+    {
+        "title": "Fenwick Tree",
+        "name": "fenwick.cpp"
     }
 ]
