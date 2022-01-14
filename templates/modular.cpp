@@ -66,26 +66,10 @@ struct Z {
         res /= rhs;
         return res;
     }
+    friend string to_string(const Z &z) {
+        return to_string(z.val());
+    }
+    friend ostream& operator<<(ostream& o, const Z &z) {
+        return o << z.val();
+    }
 };
-
-vector<Z> fac, iFac;
-
-void init(int n) {
-    fac.resize(n + 1);
-    iFac.resize(n + 1);
-    fac[0] = iFac[0] = 1;
-    for (int i = 1; i <= n; i++) {
-        fac[i] = i * fac[i - 1];
-    }
-    iFac[n] = fac[n].inv();
-    for (int i = n; i; i--) {
-        iFac[i - 1] = i * iFac[i];
-    }
-}
-
-Z C(int n, int k) {
-    if (k < 0 || k > n) {
-        return 0;
-    }
-    return fac[n] * iFac[k] * iFac[n - k];
-}

@@ -7,7 +7,7 @@ struct SegTree {
         t.resize(4 * n);
         tag.resize(4 * n);
     }
-    SegTree(vector<int>& _) {
+    SegTree(const vector<int>& _) {
         n = _.size();
         t.resize(4 * n);
         tag.resize(4 * n);
