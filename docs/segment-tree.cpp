@@ -12,13 +12,13 @@ int main() {
     cin.tie(nullptr);
     
     /*
-    SegTree(int _): constructs a segment tree of length _ with all elements initialized to 0 
+    SegTree(int _):                 constructs a segment tree of length _ with all elements initialized to 0 
 
-    SegTree(vector<int> _): constructs a segment tree on vector _
-    
-    void modify(int p, int val): sets the value of index p to val
-    
-    i64 query(int l, int r): returns the sum of all elements in with indexes in range [l...r] 
+    SegTree(vector<int> _):         constructs a segment tree on vector _
+
+    void modify(int p, int val):    sets the value of index p to val
+
+    i64 query(int a, int b):        returns the sum of all elements in with indexes in range [l...r] 
     */
 
     SegTree a(5);

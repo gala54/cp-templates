@@ -15,19 +15,19 @@ int main() {
     /*
     objects of type Z support arithmetic operations under a modulus P
 
-    init(int n): computes the factorial and inverse factorial of all integers from [0...n];
-                 call before using C(int n, int k);
+    init(int n):            computes the factorial and inverse factorial of all integers from [0...n];
+                            call before using C(int n, int k);
 
-    fac[i]: stores i! modulo P
+    fac[i]:                 stores i! modulo P
 
-    iFac[i]: stores modular inverse of i! modulo P
+    iFac[i]:                stores modular inverse of i! modulo P
 
-    Z C(int n, int k): returns 0 if k < 0 or k > n; returns (n choose k) modulo P otherwise
+    Z C(int n, int k):      returns 0 if k < 0 or k > n; returns (n choose k) modulo P otherwise
 
-    Z inv(): returns the modular inverse of an object Z
+    Z inv():                returns the modular inverse of an object Z
 
-    power(T a, int b): returns a ^ b modulo P in log(b) time;
-                       note: if the result is large, cast a as type Z
+    power(T a, int b):      returns a ^ b modulo P in log(b) time;
+                            note: if the result is large, cast a as type Z
 
     note: adjust the value of the modulus P as needed
     warning: operations work under the assumption that P is prime

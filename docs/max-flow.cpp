@@ -12,11 +12,11 @@ int main() {
     cin.tie(nullptr);
     
     /*
-    Flow(int n): constructs a flow network object with n nodes and 0 edges
+    Flow(int n):                           constructs a flow network object with n nodes and 0 edges
 
-    void addEdge(int u, int v, int c): adds a directed edge from u to v with capacity c
+    void addEdge(int u, int v, int c):     adds a directed edge from u to v with capacity c
 
-    int maxFlow(int s, int t): returns the max flow from s to t
+    int maxFlow(int s, int t):             returns the max flow from s to t
     */
 
     Flow f(6);
