@@ -2,61 +2,61 @@
     {
         "title": "Segment Tree",
         "name": "segment-tree.cpp",
-        "tags": ["Data Structures"]
+        "tags": ["data structures", "range query"]
     },
     {
         "title": "Disjoin Set Union",
         "name": "dsu.cpp",
-        "tags": ["Data Structures"]
+        "tags": ["data structures", "graphs"]
     },
     {
         "title": "Modular Integer",
         "name": "modular.cpp",
-        "tags": ["Data Structures"]
+        "tags": ["math"]
     },
     {
         "title": "FFT",
         "name": "polynomial-fft.cpp",
-        "tags": ["Data Structures"]
+        "tags": ["math"]
     },
     {
         "title": "Max Flow",
         "name": "max-flow.cpp",
-        "tags": ["Data Structures"]
+        "tags": ["graphs", "flows"]
     },
     {
         "title": "Suffix Automaton",
         "name": "suffix-automaton.cpp",
-        "tags": ["Data Structures"]
+        "tags": ["data structures", "strings"]
     },
     {
         "title": "Debugging",
         "name": "debug.cpp",
-        "tags": ["Data Structures"]
+        "tags": ["misc"]
     },
     {
         "title": "Range Min Query",
         "name": "rmq.cpp",
-        "tags": ["Data Structures"]
+        "tags": ["data structures", "range query"]
     },
     {
         "title": "LCA with RMQ",
         "name": "lca.cpp",
-        "tags": ["Data Structures"]
+        "tags": ["data structures", "graphs", "trees"]
     },
     {
         "title": "Fenwick Tree",
         "name": "fenwick.cpp",
-        "tags": ["Data Structures"]
+        "tags": ["data structures", "range query"]
     },
     {
         "title": "Implicit Treap",
         "name": "implicit-treap.cpp",
-        "tags": ["Data Structures"]
+        "tags": ["data structures", "range query"]
     },
     {
         "title": "Segment Tree + Lazy Propagation",
         "name": "lazy-propagation.cpp",
-        "tags": ["Data Structures"]
+        "tags": ["data structures", "range query"]
     }
 ]
