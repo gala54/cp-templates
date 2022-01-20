@@ -3,7 +3,6 @@
 using namespace std;
 using i64 = long long;
 
-#include "rmq.hpp"
 #include "lca.hpp"
 
 int main() {
