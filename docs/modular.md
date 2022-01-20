@@ -13,7 +13,8 @@
     - `fac[i]`: Stores the factorial of `i` modulo `P`
 	- `iFac[i]`: Stores the inverse factorial of `i` modulo `P`
     - `C(int n, int k)`: Returns `n` choose `k` modulo `P`
-*
+    - `power(T a, int b)`: Returns an `a` ^ `b`; if this value is large, make sure to cast `a` as an object of type `Z`
+    
 
 **NOTE**: operations work under the assumption that `P` is prime
 
