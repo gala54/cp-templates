@@ -1,9 +1,11 @@
-## Segment Tree
-
 ### Overview
 
 > A data structure that supports point update and range queries on an array efficiently
 
 ### Usage
 
---`knapsack01 (v, w, W)`: Given the sequence $ v = \ {v_i \} $, $ w = \ {w_i \} $ and the value $ W $, solve the 0-1 knapsack problem. Returns $ V_ {\ max} $. Computational complexity $ \ mathrm {O} (\ min \ lbrace NW, N \ sum v_i, N 2 ^ {\ frac {N} {2}} \ rbrace) $
+-`SegTree(int _)`: Constructs a `SegTree` object on an array of length `_` with all elements initialized to `0`
+-`SegTree(const vector<int>& _)`: Constructs a `SegTree` object on the array `_`
+-`modify(int p, int val)`: Increments value of index `p` by `val`
+-`query(int a, int b)`: Returns the sum of all elements with indices in the range `[a...b]` 	
+
