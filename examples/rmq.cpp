@@ -8,13 +8,6 @@ using i64 = long long;
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
-    
-    /*
-    RMQ(const vector<T>& _):   initializes an RMQ object on the vector _
-                               note: the elements of _ must have a defined < operator
-
-    T query(int L, int R):     returns the minimum element in the range [L...R]
-    */
 
     vector<int> a = {1, 2, 8, 0, -1, 11, 3, 7};
     RMQ<int> r(a);

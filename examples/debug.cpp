@@ -8,10 +8,6 @@ using i64 = long long;
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
-    
-    /*
-    to enable the debugger, compile with -DLOCAL flag
-    */
 
     vector<int> a = {3, 2, 1, 4, 5};
     vector<pair<int, int>> b = {{3, 2}, {-1, 0}, {2, 3}};

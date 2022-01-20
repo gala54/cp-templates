@@ -8,14 +8,6 @@ using i64 = long long;
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
-    
-    /*
-    Flow(int n):                           constructs a flow network object with n nodes and 0 edges
-
-    void addEdge(int u, int v, int c):     adds a directed edge from u to v with capacity c
-
-    int maxFlow(int s, int t):             returns the max flow from s to t
-    */
 
     Flow f(6);
     f.addEdge(0, 1, 7);
