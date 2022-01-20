@@ -8,20 +8,6 @@ using i64 = long long;
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
-    
-    /*
-    LCA(int _):                       constructs an LCA object on a tree with n nodes and 0 edges
-
-    LCA(vector<vector<int>>& _):      constructs an LCA object on a tree specificed by adjacency list _
-
-    void addEdge(int u, int v):       adds an undirected edge between u and v;
-
-    void gen(int root):               roots the tree at root
-
-    int get(int u, int v):            returns the least common ancestor of u and v
-
-    note: gen(int) must be called before get(int, int)
-    */
 
     LCA t(7);
     t.addEdge(0, 1);

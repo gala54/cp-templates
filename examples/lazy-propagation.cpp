@@ -8,16 +8,6 @@ using i64 = long long;
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
-    
-    /*
-    SegTree(int _):                      constructs a segment tree of length _ with all elements initialized to 0 
-
-    SegTree(vector<int> _):              constructs a segment tree on vector _
-    
-    void modify(int a, int b, int val):  increases all elements in the range [a...b] by val
-    
-    i64 query(int a, int b):             returns the sum of all elements in the range [a...b] 
-    */
 
     SegTree t(6);
 
