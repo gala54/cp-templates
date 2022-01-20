@@ -9,16 +9,6 @@ int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     
-    /*
-    SegTree(int _):                 constructs a segment tree of length _ with all elements initialized to 0 
-
-    SegTree(vector<int> _):         constructs a segment tree on vector _
-
-    void modify(int p, int val):    sets the value of index p to val
-
-    i64 query(int a, int b):        returns the sum of all elements in with indexes in range [l...r] 
-    */
-
     SegTree a(5);
     a.modify(1, 3);
     a.modify(4, -2);

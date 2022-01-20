@@ -9,3 +9,4 @@
 - `modify(int p, int val)`: Increments value of index `p` by `val`
 - `query(int a, int b)`: Returns the sum of all elements with indices in the range `[a...b]` 	
 
+### Example
