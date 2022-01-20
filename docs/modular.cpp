@@ -3,10 +3,7 @@
 using namespace std;
 using i64 = long long;
 
-// ------------------- template start -------------------
-constexpr int P = 1000000007;
-...
-// -------------------  template end  -------------------
+#include "modular.hpp"
 
 int main() {
     ios::sync_with_stdio(false);

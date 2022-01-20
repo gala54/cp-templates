@@ -3,9 +3,8 @@
 using namespace std;
 using i64 = long long;
 
-// ------------------- template start -------------------
-...
-// -------------------  template end  -------------------
+#include "rmq.hpp"
+#include "lca.hpp"
 
 int main() {
     ios::sync_with_stdio(false);

@@ -3,9 +3,7 @@
 using namespace std;
 using i64 = long long;
 
-// ------------------- template start -------------------
-struct Fenwick {...};
-// -------------------  template end  -------------------
+#include "fenwick.hpp"
 
 int main() {
     ios::sync_with_stdio(false);

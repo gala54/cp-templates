@@ -3,9 +3,7 @@
 using namespace std;
 using i64 = long long;
 
-// ------------------- template start -------------------
-struct SegTree {...};
-// -------------------  template end  -------------------
+#include "segment-tree.hpp"
 
 int main() {
     ios::sync_with_stdio(false);

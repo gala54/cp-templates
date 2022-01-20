@@ -3,10 +3,7 @@
 using namespace std;
 using i64 = long long;
 
-// ------------------- template start -------------------
-template<class T>
-struct RMQ {...}
-// -------------------  template end  -------------------
+#include "rmq.hpp"
 
 int main() {
     ios::sync_with_stdio(false);

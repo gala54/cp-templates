@@ -3,9 +3,7 @@
 using namespace std;
 using i64 = long long;
 
-// ------------------- template start -------------------
-struct dsu {...};
-// -------------------  template end  -------------------
+#include "dsu.hpp"
 
 int main() {
     ios::sync_with_stdio(false);
