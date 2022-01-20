@@ -1,6 +1,6 @@
 ### Overview
 
-> A template for commputing the LCA of two nodes in a tree using the euler tour techinque and range minimum queries
+> A class for computing the least common ancestor (LCA) of two nodes in a tree using euler tour techinque and range minimum queries
 
 ### Usage
 
