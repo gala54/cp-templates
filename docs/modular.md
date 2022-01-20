@@ -17,5 +17,4 @@
 
 **NOTE**: operations work under the assumption that `P` is prime
 
-[//]: # (Force end list)
 ### Example
