@@ -1,6 +1,6 @@
 ### Overview
 
-> A class that supports arithmetic operations with a modulus
+> A class that supports arithmetic operations under mod
 
 ### Usage
 
@@ -13,5 +13,6 @@
     - `fac[i]`: Stores the factorial of `i` modulo `P`
 	- `iFac[i]`: Stores the inverse factorial of `i` modulo `P`
     - `C(int n, int k)`: Returns `n` choose `k` modulo `P`
-    
+
+[//]: # (Force end list)
 ### Example
