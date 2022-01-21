@@ -58,5 +58,10 @@
         "title": "Segment Tree + Lazy Propagation",
         "name": "lazy-propagation",
         "tags": ["data structures", "range query"]
+    },
+    {
+        "title": "2D Fenwick Tree",
+        "name": "fenwick2",
+        "tags": ["data structures", "range query", "2D"]
     }
 ]
