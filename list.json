@@ -63,5 +63,10 @@
         "title": "2D Fenwick Tree",
         "name": "fenwick2",
         "tags": ["data structures", "range query", "2D"]
+    },
+    {
+        "title": "Suffix Array",
+        "name": "suffix-array",
+        "tags": ["strings"]
     }
 ]
